@@ -1,10 +1,13 @@
 .App {
   text-align: center;
+  background-color: #181212;
 }
 
 .App-logo {
-  height: 40vmin;
+  display: inline-block;
+  height: 10vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,7 +20,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
